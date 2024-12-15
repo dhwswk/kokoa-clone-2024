@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 560px;
+  height: 490px;
+  background-color: #6bbcbe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes dotdot {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+
+@keyframes boxbox {
+  0% {
+    transform: scaleY(1);
+  }
+  35% {
+    transform: scaleY(2);
+  }
+
+  70% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.dots {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  animation: dotdot 1s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.boxes {
+  width: 70px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 10px;
+  height: 40px;
+  background-color: white;
+  animation: boxbox 1s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+}
+
+.box:nth-child(2) {
+  animation-delay: 0.05s;
+}
+.box:nth-child(3) {
+  animation-delay: 0.1s;
+}
+.box:nth-child(4) {
+  animation-delay: 0.15s;
+}
+.box:nth-child(5) {
+  animation-delay: 0.2s;
+}

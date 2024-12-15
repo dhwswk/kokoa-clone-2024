@@ -1,0 +1,312 @@
+/* DONT DELETE THIS */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* WRITE YOUR CODE BELOW */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap");
+
+body {
+  min-width: 1000px;
+  min-height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 900px;
+  background-color: #f7f7f7;
+}
+
+.screen {
+  width: 360px;
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  margin: 0px 55px;
+  border-radius: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 88%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.artist {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist__img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 15px #e8ab81;
+}
+
+.artist__name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.artist__genre {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+.btn {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn__shuffle {
+  width: 120px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.btn__heart {
+  width: 120px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.fa-heart {
+  color: black;
+}
+
+.list {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.list__song {
+  width: 290px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list__song__img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.list__song__name {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.list__song__name__artist {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 2px;
+}
+
+.list__song__name__rn {
+  font-size: 17px;
+  font-weight: 800;
+  margin-top: 2px;
+}
+
+.list__song__set {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+  width: 330px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 35px;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+}
+
+.nav__song {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.nav__song__artist {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6e6e6e;
+  margin-bottom: 3px;
+}
+
+.nav__song__artist {
+  font-weight: 700;
+  margin-top: 3px;
+}
+
+.nav__nav {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cover {
+  width: 360px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover img {
+  width: 260px;
+  height: 260px;
+  border-radius: 25px;
+  box-shadow: 0 0 40px #8eaea9;
+}
+
+.song {
+  width: 360px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.song__name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.song__artist {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.bar {
+  width: 360px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bar__time {
+  width: 310px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.progress-bar {
+  -webkit-appearance: none;
+  width: 300px;
+  height: 4px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  margin: 0 10px;
+  background: linear-gradient(to right, black, #ddd);
+}
+
+.progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  color: black;
+  background: black;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.control {
+  width: 360px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control__one {
+  margin: 0px 18px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.control__two {
+  margin: 0px 18px;
+}
+.control__three {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 35px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 0px 18px;
+}
+.control__four {
+  margin: 0px 18px;
+}
+.control__five {
+  margin: 0px 18px;
+  color: rgba(0, 0, 0, 0.4);
+}

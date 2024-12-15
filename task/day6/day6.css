@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first {
+  width: 240px;
+  height: 240px;
+  background-color: #f5deb3;
+  border: 3px solid black;
+}
+
+.second {
+  width: 50px;
+  height: 50px;
+  background-color: #008080;
+  border: 3px solid white;
+  margin: 20px;
+}
+
+.third {
+  width: 200px;
+  height: 50px;
+  background-color: #008080;
+  border: 3px dashed white;
+}
